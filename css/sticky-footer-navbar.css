@@ -29,15 +29,15 @@ code {
 }
 
 .bg-crypton-pattern {
-  background: rgba(222, 120, 113, 0.5);
+  /* background: rgba(222, 120, 113, 0.5);
   background: -moz-linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113));
   background: -webkit-linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113));
   background: -ms-linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113));
-  background: linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113));
+  background: linear-gradient(top left, rgba(124, 67, 117, 0.8) 15%, #d14d61, rgb(222, 120, 113)); */
 }
 
 .bg-modal-pattern {
-	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #19b0d4, #3991e2, #f4f9fd, #33b9d8);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
@@ -80,6 +80,19 @@ code {
 	}
 }
 
+.navbar-brand {
+  width: 18%;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .navbar-brand {
+    width: 40%;
+  }
+}
 
 #content {
   padding-top: 150px;
