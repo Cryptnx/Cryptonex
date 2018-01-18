@@ -16,7 +16,9 @@
       -webkit-font-smoothing: antialiased;
       font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
       font-weight: 300;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      color: #100e67;
+    }
 
       .header-subtitle h1 {
         letter-spacing: 3px;
@@ -54,6 +56,14 @@
 
     button.btn{
      cursor: pointer;
+     background-color: #3991e2;
+     border-color: #79baff;
+     text-transform: uppercase;
+   }
+
+   button.btn:hover {
+     background: #296398;
+     color: white;
    }
 
     header button.btn{
@@ -102,7 +112,21 @@
     header.masthead {
       position: relative;
       width: 100%;
-      color: white;
+      color: #100e67;
+      background-image: url("./../assets/images/pexels-photo-296282.jpeg");
+      background-repeat:no-repeat;
+      background-size:cover;
+    }
+
+    @media (max-width: 992px) {
+      header.masthead {
+        background-position: 50%;
+        height: 120%;
+      }
+
+      .img-fluid {
+        /* max-width: 80%; */
+      }
     }
 
     header.masthead .header-content {
@@ -179,8 +203,8 @@
       font-size: 80px;
       display: block;
       margin-bottom: 15px;
-      background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430);
+      background: -webkit-linear-gradient(to left, #3991e2, #819ea5);
+      background: linear-gradient(to left, #3991e2, #819ea5);
       -webkit-background-clip: text;
       background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -207,10 +231,6 @@
       padding-bottom: 15px;
     }
 
-    #portfolio {
-
-    }
-
     #emailInput {
       background: white;
     }
@@ -227,14 +247,20 @@
     .not-fixed {
       background: transparent;
       position: absolute;
-      padding-top: 5vh;
+      padding-top: 1.5vh;
       padding-bottom: 5vh;
     }
 
+    @media (max-width: 992px) {
+      .not-fixed {
+        padding-top: 3vh;
+      }
+    }
+
     .fixed {
-      background: #282424;
+      background: white;
       position: fixed;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      box-shadow: 0 3px 6px rgb(189, 218, 243), 0 3px 6px rgb(207, 240, 247);
       padding-top: 12px;
       padding-bottom: 12px;
     }
@@ -267,7 +293,7 @@
 
 
   a.btn {
-    color: #ededed;
+    color: #535c61;
   }
 
   a {
@@ -281,6 +307,10 @@
   a > i {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .fa-linkedin:hover,fa-linkedin:focus, .fa-medium:hover, .fa-medium:focus {
+    color: #2f9add !important;
   }
 
   .navbar .btn {
