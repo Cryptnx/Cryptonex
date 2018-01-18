@@ -1,10 +1,13 @@
 (function () {
     var vm = this;
+    // Initialize Firebase
     var config = {
-      apiKey: "AIzaSyDG2AnvNDb81pot-H0b3OEJt1GJiAOOVH0",
-      authDomain: "crypton-materialkit.firebaseapp.com",
-      databaseURL: "https://crypton-materialkit.firebaseio.com",
-      projectId: "crypton-materialkit",
+      apiKey: "AIzaSyCRucsZt06BEx1pELBhIdeIRZjtwhytvfQ",
+      authDomain: "cryptonex-69115.firebaseapp.com",
+      databaseURL: "https://cryptonex-69115.firebaseio.com",
+      projectId: "cryptonex-69115",
+      storageBucket: "",
+      messagingSenderId: "671894460805"
     };
     firebase.initializeApp(config);
 
